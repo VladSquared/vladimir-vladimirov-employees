@@ -154,7 +154,7 @@ public class EmployeesAnalyzer {
         LocalDate iterateDate = startDate;
         int weekendDays = 0;
 
-        while (iterateDate.isBefore(endDate)){
+        while (iterateDate.isBefore(endDate) || iterateDate.equals(endDate) ){
             DayOfWeek day = iterateDate.getDayOfWeek();
             if (day.getValue() == 6 || day.getValue() == 7){
                 weekendDays++;
