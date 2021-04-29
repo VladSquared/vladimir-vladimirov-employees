@@ -120,7 +120,7 @@ public class EmployeesAnalyzer {
         return diff;
     }
 
-    //first date is starting, second is ending
+    //return first date as starting, second as ending
     //is no matching period -> endDate will be before startDate
     private static LocalDate[] findStartAndEndDates(Entity entity1, Entity entity2){
 
@@ -139,9 +139,7 @@ public class EmployeesAnalyzer {
             endingDate = entity1.getDateTo();
         }
 
-        LocalDate[] response = {startingDate, endingDate};
-
-        return response;
+        return new LocalDate[]{startingDate, endingDate};
     }
 
     private static int findWeekendDaysInPeriodInDays(Entity entity1, Entity entity2){
