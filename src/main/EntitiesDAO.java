@@ -1,3 +1,9 @@
+/**
+ * Class responsible for reading the txt file and turn it into java objects
+ *
+ * @author Vladimir Vladimirov
+ */
+
 package main;
 
 import java.io.File;

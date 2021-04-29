@@ -1,7 +1,7 @@
-/*
- * Main Class
- *
- * Version 1.0
+/**
+ * Main class that contains the only main method.
+ * Start main method and paste in the console the full path to your text file.
+ * You should include .txt extension in the end of it.
  *
  * @author Vladimir Vladimirov
  */

@@ -1,3 +1,17 @@
+/**
+ * Contains the data from 1 row / entity in the text
+ *
+ * <p>acceptable data formats:
+ * "yyyy-MM-d", "MM/d/yyyy", "yyyy/MM/dd", "dd-M-yyyy hh:mm:ss",
+ * "dd MMMM yyyy zzzz", "E, dd MMM yyyy HH:mm:ss z", "M/D/YY",
+ * "D/M/YY", "YY/M/D", "MMDDYY", "DDMMYY",
+ * "YYMMDD", "dd-MMM-yyyy", "dd MMMM yyyy"
+ *
+ * Extendable with other data formats without "," character
+ *
+ * @author Vladimir Vladimirov
+ */
+
 package main;
 
 import java.time.LocalDate;

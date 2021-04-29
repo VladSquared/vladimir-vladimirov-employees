@@ -1,3 +1,14 @@
+/**
+ * Class get path to file and analyze it.
+ *
+ * For proper path format and proper text file format, see Main.java
+ * For proper date formats, see Entity.java
+ *
+ * <p>Bugs: It is not thread safe. Do not use it in multi thread environment.
+ *
+ * @author Vladimir Vladimirov
+ */
+
 package main;
 
 import java.time.DayOfWeek;
